@@ -8,7 +8,7 @@ function App() {
 const[val,setCounter] = useState(10);
 
 
-
+  
   return (
     <>
       <h1>counter value {val} </h1>
