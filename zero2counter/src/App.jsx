@@ -13,7 +13,7 @@ const[val,setCounter] = useState(10);
     <>
       <h1>counter value {val} </h1>
       <button onClick = {()=>{
-        if(val<20){
+        if(val<21){
         setCounter(val+1)}
         }}>Increase</button>
       <button onClick={() => setCounter(val-1)}>Decrease</button>
